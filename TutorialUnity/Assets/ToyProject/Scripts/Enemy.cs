@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public interface ICollisionable
+{
+    public void CollideWithPlayer(); // Player(공)과 부딪힌 객체가 특정 방향으로 날라가는 기능을 인터페이스 구현하겠다.
+}
+public class Enemy : MonoBehaviour, ICollisionable
 {
     // 플레이어의 방향 (정중앙)
     // 밖으로 떨어지면 안되는 게임 -> 정중앙의 위치를 고수하는 것.
@@ -13,6 +17,12 @@ public class Enemy : MonoBehaviour
     public Rigidbody rigidbody;
 
     private Vector3 targetDirection;
+
+    public void CollideWithPlayer()
+    {
+        // 플레이어와 충돌했을 때 객체가 날라가는 로직을 작성해주면 됩니다.
+        Debug.Log("Collide인터페이스가 호출됨!");
+    }
 
     // Start is called before the first frame update
     void Start()

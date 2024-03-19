@@ -11,13 +11,13 @@ C:\Program Files\Unity\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Administrator/Desktop/ToyProject01/TutorialUnity
+C:/새 폴더/ToyProject01/TutorialUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50803
-Successfully changed project path to: C:/Users/Administrator/Desktop/ToyProject01/TutorialUnity
-C:/Users/Administrator/Desktop/ToyProject01/TutorialUnity
+49956
+Successfully changed project path to: C:/새 폴더/ToyProject01/TutorialUnity
+C:/새 폴더/ToyProject01/TutorialUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/Administrator/Desktop/ToyProject01/TutorialUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19220] Host "[IP] 192.168.0.168 [Port] 0 [Flags] 2 [Guid] 1138605505 [EditorId] 1138605505 [Version] 1048832 [Id] WindowsEditor(7,I-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16564] Host "[IP] 192.168.0.168 [Port] 0 [Flags] 2 [Guid] 2136285966 [EditorId] 2136285966 [Version] 1048832 [Id] WindowsEditor(7,I-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19220] Host "[IP] 192.168.0.168 [Port] 0 [Flags] 2 [Guid] 1138605505 [EditorId] 1138605505 [Version] 1048832 [Id] WindowsEditor(7,I-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16564] Host "[IP] 192.168.0.168 [Port] 0 [Flags] 2 [Guid] 2136285966 [EditorId] 2136285966 [Version] 1048832 [Id] WindowsEditor(7,I-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/ToyProject01/TutorialUnity/Assets
+[Subsystems] Discovering subsystems at path C:/새 폴더/ToyProject01/TutorialUnity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013565 seconds.
-- Loaded All Assemblies, in  0.372 seconds
+Registered in 0.013804 seconds.
+- Loaded All Assemblies, in  0.393 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 619ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 650ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (111ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (251ms)
+	FinalizeReload (261ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (192ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,206 +115,56 @@ Domain Reload Profiling: 619ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.715 seconds
-Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.767 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.625 seconds
-Domain Reload Profiling: 1335ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (391ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (130ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (625ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3577.
-Memory consumption went from 133.1 MB to 133.0 MB.
-Total: 4.351100 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.620700 ms MarkObjects: 3.087800 ms  DeleteObjects: 0.179000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1695.116154 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(461be192c524c184b83781594978ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(461be192c524c184b83781594978ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96ddb7a527ac2c44d26dfc0cc07e256') in 0.002279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.941407 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff65bd73199622a107923d780134ba') in 0.000638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3577.
-Memory consumption went from 83.8 MB to 83.8 MB.
-Total: 2.312800 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.225300 ms MarkObjects: 1.814000 ms  DeleteObjects: 0.023200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1140.421840 seconds.
-  path: Assets/Scripts/PlayerControler.cs
-  artifactKey: Guid(afe27bd691e2cdb4e9d122a65bff113b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerControler.cs using Guid(afe27bd691e2cdb4e9d122a65bff113b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cd6030c56919167a87421bc0ba8535') in 0.001053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 308.351806 seconds.
-  path: Assets/Physics Materials/Bound.physicMaterial
-  artifactKey: Guid(8d1268dce61e45e4199a96684c92470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Physics Materials/Bound.physicMaterial using Guid(8d1268dce61e45e4199a96684c92470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9b3363776624111a9447e0e28202a5') in 0.008971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 16.783264 seconds.
-  path: Assets/Tree_Textures/diffuse.png
-  artifactKey: Guid(280591ecb5b9b244daa2c213ef74b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/diffuse.png using Guid(280591ecb5b9b244daa2c213ef74b4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ac34f6c4b274fdac2e67ac6e340a09') in 0.058476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tree_Textures/shadow.png
-  artifactKey: Guid(c15be994bca4ffc498437b0c4dcabd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/shadow.png using Guid(c15be994bca4ffc498437b0c4dcabd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0515e09b08e2c0e7f3e4337a6296228') in 0.020694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 17.728371 seconds.
-  path: Assets/EmaceArt - raft on the desert
-  artifactKey: Guid(ba4a5e7145389de4ab0852f71a121c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt - raft on the desert using Guid(ba4a5e7145389de4ab0852f71a121c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c03d4c9f6d58c819319299bd69df692') in 0.000468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.980813 seconds.
-  path: Assets/ToyProject
-  artifactKey: Guid(f405150ac7e37ff43879179528e681d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToyProject using Guid(f405150ac7e37ff43879179528e681d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381b7be1362a3e74ac37a6840236fa82') in 0.000411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.532 seconds
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.990 seconds
-Domain Reload Profiling: 1517ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (357ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (424ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (990ms)
+	FinalizeReload (670ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3584.
-Memory consumption went from 133.9 MB to 133.8 MB.
-Total: 2.622800 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.183100 ms MarkObjects: 2.158800 ms  DeleteObjects: 0.039600 ms)
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3583.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 3.826400 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.412700 ms MarkObjects: 2.842600 ms  DeleteObjects: 0.133500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -330,98 +180,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.913521 seconds.
-  path: Assets/Tree_Textures
-  artifactKey: Guid(144c64b9d06d07f4d9ec3a4070d5858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures using Guid(144c64b9d06d07f4d9ec3a4070d5858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77363f8559062bd05900aee9a9f3351d') in 0.001992 seconds
+  Time since last request: 1232.072386 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx
+  artifactKey: Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx using Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fea5e0f71b1037bee6e960e9660c63') in 0.176676 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 6.044342 seconds.
-  path: Assets/Simple_01
-  artifactKey: Guid(cc1441e77aa04304e80dace847fc28f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01 using Guid(cc1441e77aa04304e80dace847fc28f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea76727bb6feb963b63ff470ef83952') in 0.000413 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx
+  artifactKey: Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx using Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895677b8894f57d9cd6c82c579ed5970') in 0.038160 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 30.385025 seconds.
-  path: Assets/Simple_01/Sample
-  artifactKey: Guid(0164f6ea2214978488f9163797371b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample using Guid(0164f6ea2214978488f9163797371b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df082b8ef83ec0862d27ed75b8d6aa4') in 0.000432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.829122 seconds.
-  path: Assets/Simple_01/Sample/Sample01.unity
-  artifactKey: Guid(6a8065e4ecff3ec4a883d86213bf95b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Sample01.unity using Guid(6a8065e4ecff3ec4a883d86213bf95b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6ddcd588d93ee81c2d88e512ced971') in 0.000500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.369047 seconds.
-  path: Assets/Simple_01/Sample/Ground
-  artifactKey: Guid(efafaf37aee603d4c84285f594a32b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Ground using Guid(efafaf37aee603d4c84285f594a32b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bff6e02b80860eb30a4eada0254fa8') in 0.000447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.053962 seconds.
-  path: Assets/Simple_01/Sample/Ground/Ground_Tile_Cube_FloatingIsland_01.prefab
-  artifactKey: Guid(c18b0566c0ca32548acca53d337698db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Ground/Ground_Tile_Cube_FloatingIsland_01.prefab using Guid(c18b0566c0ca32548acca53d337698db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444ea3db63c8077e2c6749534c6a930c') in 0.099560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 150.650136 seconds.
-  path: Assets/Simple_01/Sample/Sky/SkyDome.prefab
-  artifactKey: Guid(363a8f737719f4d2eafb35f885f3706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Sky/SkyDome.prefab using Guid(363a8f737719f4d2eafb35f885f3706f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab83f7571853ea5b4a1213376434e13') in 0.038802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 168.552448 seconds.
-  path: Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_01.png
-  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_01.png using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aac6cf5c7655689f2c237b9286335c') in 0.033299 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple_01/Sample/Materials/Player.mat
+  artifactKey: Guid(ed25f4c16434e784db4da69ae5f58deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple_01/Sample/Materials/Player.mat using Guid(ed25f4c16434e784db4da69ae5f58deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937d71a0c8003792fb17218ef8495d5b') in 0.012818 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01d.fbx
+  artifactKey: Guid(dbbe3de1542c20c4e9b893ac48c416c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01d.fbx using Guid(dbbe3de1542c20c4e9b893ac48c416c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ff556b932c001425d24784db263eb') in 0.037135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx
+  artifactKey: Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx using Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0586ce9ab78c685cb874163360aa4318') in 0.038060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01f.fbx
+  artifactKey: Guid(865d7f5938b04864993c64fd4a40fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01f.fbx using Guid(865d7f5938b04864993c64fd4a40fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861b5d62b1dd728383866fdd4e2cb6be') in 0.038749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_08.png
-  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_08.png using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79db91e2b714758256e5948185abd35') in 0.025362 seconds
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01d.fbx
+  artifactKey: Guid(ae8d6bdc47f053d4ba8a38726814efa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01d.fbx using Guid(ae8d6bdc47f053d4ba8a38726814efa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9ebd6b134e71eb8383f8beeb8133e5') in 0.036463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Animal_Bird_01a.fbx
+  artifactKey: Guid(44881d805248dfe4eb24b66d2ce9ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Animal_Bird_01a.fbx using Guid(44881d805248dfe4eb24b66d2ce9ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b01bdf99073312a668f9f034557cba9') in 0.040169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx
+  artifactKey: Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx using Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44ccbc9069177d6c0fd10482fbdf5bd') in 0.037284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Simple_01/Sample/_Source_Files/Materials/SimpleIcons.mat
+  artifactKey: Guid(9c0880e4cd8a8704e82b6940624b569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple_01/Sample/_Source_Files/Materials/SimpleIcons.mat using Guid(9c0880e4cd8a8704e82b6940624b569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c9392be521ca3a217ff98b4dfcc67d') in 0.044688 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_03.png
-  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_03.png using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec93350c1787a2fc59f3f114ff9c92a5') in 0.023186 seconds
+  Time since last request: 1.832385 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx
+  artifactKey: Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx using Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeb42cd999b7e29ea0267681a8fc446') in 0.068990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_04.png
-  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_04.png using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f4530deff3edaf161d533d9d011915') in 0.023694 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx
+  artifactKey: Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx using Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f27c1d78257b50c394bca8966eed1b') in 0.050387 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_Glass_01.png
-  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple_01/Sample/Textures/PolygonPrototype_Texture_Grid_Glass_01.png using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59e2a3916674df57cf1983da556374') in 0.020416 seconds
+  Time since last request: 0.413992 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01j.fbx
+  artifactKey: Guid(e85f9cd9d22b26142b1cc7c99196ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01j.fbx using Guid(e85f9cd9d22b26142b1cc7c99196ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50073c3ed3eaffa25381abae3cc779be') in 0.050415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.097141 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx
+  artifactKey: Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx using Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed10c1b52c4af35a406d3c8ba66c014') in 0.056397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 1.140388 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01b.fbx
+  artifactKey: Guid(3d6629f3aee5e5c4f90b1a5b438afe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01b.fbx using Guid(3d6629f3aee5e5c4f90b1a5b438afe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6149f84617e8b5634feb89b44673e5c0') in 0.039788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01c.fbx
+  artifactKey: Guid(50e04cf96ff351e4da1e14ee52c8b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01c.fbx using Guid(50e04cf96ff351e4da1e14ee52c8b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f84477c1ffe3d36545b9b37dfb3b79b') in 0.034548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.729292 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx
+  artifactKey: Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx using Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbc44fb0609369947ac62f0dc505284') in 0.068963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx
+  artifactKey: Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx using Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00ce71308d4c2183c7a4e4330b7be8f') in 0.057269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.084393 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01c.fbx
+  artifactKey: Guid(07346284acfa6cb46ad146e8c2959d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01c.fbx using Guid(07346284acfa6cb46ad146e8c2959d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa9de2b05c066ff3f1c12709112687f') in 0.092142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.669450 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Terrain_Desert_01a.fbx
+  artifactKey: Guid(b369ef58286aff947acef3b2027a6c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Terrain_Desert_01a.fbx using Guid(b369ef58286aff947acef3b2027a6c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8a9600e4c03892f4bfca8a12f4aebe') in 0.067784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.046946 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx
+  artifactKey: Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx using Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dafe2dfced3cf156a3592529f91a82') in 0.071801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.311669 seconds.
+  path: Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_Ring_01a.fbx
+  artifactKey: Guid(b336bceccf9dcad4aabb8be7f6f3063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToyProject/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_Ring_01a.fbx using Guid(b336bceccf9dcad4aabb8be7f6f3063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f110baf961616a790e83f6f6751a5fd0') in 0.054126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.352017 seconds.
+  path: Assets/Simple_01/Sample/Materials/Enemy.mat
+  artifactKey: Guid(75336a54a687a6a42b80501f5c161fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple_01/Sample/Materials/Enemy.mat using Guid(75336a54a687a6a42b80501f5c161fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf753dfe4d0d2f09332b57ae8036845') in 0.010613 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
