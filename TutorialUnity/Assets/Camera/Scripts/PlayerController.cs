@@ -9,7 +9,11 @@ namespace CameraSetting
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private float playerMoveSpeed;
+        
+
         private CharacterController cCon;
+       
+
         // Rigidbody 클래스를 초기화 해주세요.
 
        
@@ -26,6 +30,9 @@ namespace CameraSetting
             float vertical = Input.GetAxis("Vertical");
 
             Vector3 moveDir = new Vector3(horizontal, 0, vertical).normalized;
+            float moveAmount = Mathf.Clamp01(Mathf.Abs(horizontal)+Mathf.Abs(vertical));
+
+
 
             // Rigidbody 초기화한 변수를 사용하고 Addforce 메소드를 이용해 플레이어를 움직여 보세요.
             //Rigidbody rigidbody = GetComponent<Rigidbody>();

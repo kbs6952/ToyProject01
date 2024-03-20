@@ -354,7 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Camera/Scripts/FirstCamController.cs"
 "Assets/Camera/Scripts/PlayerController.cs"
-"Assets/Camera/Scripts/TirdCamController.cs"
+"Assets/Camera/Scripts/ThirdCamController.cs"
 "Assets/Camera/Scripts/TopViewCamController.cs"
 "Assets/EventFuntion/Scripts/InitializeFuntion.cs"
 "Assets/EventFuntion/Scripts/UpdateFuntion.cs"
