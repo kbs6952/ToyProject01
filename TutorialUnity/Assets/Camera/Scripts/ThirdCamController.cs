@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TirdCamController : MonoBehaviour
+public class ThirdCamController : MonoBehaviour
 {
 
     [Header("카메라 제어 변수")]

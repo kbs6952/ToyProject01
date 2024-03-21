@@ -54,8 +54,7 @@ public class FirstCamController : MonoBehaviour
     }
     private void LateUpdate()       // playerController의 Update문에서 플레이어의 이동이 적용. firstCamController 카메라의 회전이 적용
     {
-        firstCam.transform.position = viewPort.position;    // 1인칭 카메라의 회전역할을 하는 viewport의 position과 위치를 맞춰준다.
-        firstCam.transform.rotation = viewPort.rotation;
+        firstCam.transform.SetPositionAndRotation(viewPort.position, viewPort.rotation);
 
         // * 선형 보간법으로 회전을 부드럽게 적용해보기 *
     }
