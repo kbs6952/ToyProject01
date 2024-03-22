@@ -35,6 +35,9 @@ namespace CameraSetting
         private float activeMoveSpeed;                      // 실제로 플레이어가 이동할 속력을 저장할 변수
         private Vector3 movement;
 
+        private Animator playerAnimator;
+
+
         // Rigidbody 클래스를 초기화 해주세요.
 
        
@@ -42,6 +45,7 @@ namespace CameraSetting
         void Start()
         {
             cCon = GetComponent<CharacterController>();
+            playerAnimator = GetComponentInChildren<Animator>();
         }
 
         // Update is called once per frame
@@ -103,6 +107,7 @@ namespace CameraSetting
             if(moveAmount > 0)
             {
                 targetRotation = Quaternion.LookRotation(moveDirection);
+                playerAnimator.SetBool("IsRun", true);
             }
             transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, smoothRotation * Time.deltaTime);
             cCon.Move(movement * Time.deltaTime);
