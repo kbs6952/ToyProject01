@@ -16,7 +16,7 @@ public class ThirdCamController : MonoBehaviour
     float rotationX;
     float rotationY;
 
-    public Quaternion comLookRotation => Quaternion.Euler(0, rotationY, 0); 
+    public Quaternion camLookRotation => Quaternion.Euler(0, rotationY, 0); 
     // Update is called once per frame
     void Update()
     {

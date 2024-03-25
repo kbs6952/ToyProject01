@@ -10,6 +10,10 @@ namespace CameraSetting
     [RequireComponent(typeof(CharacterController))]
     public class PlayerController : MonoBehaviour
     {
+        [Header("플레이어 매니저 스크립트")]
+        [HideInInspector] public PlayerAnimatorManager animaotionManager;
+
+
         [Header("플레이어 입력 제어 변수")]
 
         [SerializeField] private float playerMoveSpeed;     // 플레이어의 기본 속도
@@ -35,6 +39,7 @@ namespace CameraSetting
         private float activeMoveSpeed;                      // 실제로 플레이어가 이동할 속력을 저장할 변수
         private Vector3 movement;
 
+        [Header("애니메이터")]
         private Animator playerAnimator;
 
 
@@ -63,14 +68,22 @@ namespace CameraSetting
 
             // 3. 플레이어 캐릭터 이동할 방향을 지정할 변수 선언
 
-            Vector3 moveDirection = thirdCam.comLookRotation * moveInput;
-          
+            Vector3 moveDirection = thirdCam.transform.forward * moveInput.z + thirdCam.transform.right * moveInput.x;
+            moveDirection.y = 0;
+
 
             // 4. 플레이어의 이동 속도를 다르게 해주는 코드 (달리기 기능)
             if (Input.GetKey(KeyCode.LeftShift))  // key Down : 누를 때 한번, Key : Key버튼을 떼기 전까지
+            {
                 activeMoveSpeed = runSpeed;
+                playerAnimator.SetBool("IsRun", true);
+            }
             else
+            {
                 activeMoveSpeed = playerMoveSpeed;
+                playerAnimator.SetBool("IsRun", false);
+            }
+            
 
 
             // 5. 점프를  하기 위한 계산식
@@ -90,7 +103,8 @@ namespace CameraSetting
 
             // 점프키를 입력하여 점프 구현
             if (Input.GetButtonDown("Jump") && isGrounded)
-            { 
+            {
+                playerAnimator.CrossFade("Jump", 0.2f);         // 두 번째 매개변수 : 현재 State에서 실행하고 싶은 애니메이션을 자동으로 Blend해주는 시간
                 movement.y = jumpForce;
             }    
 
@@ -107,10 +121,11 @@ namespace CameraSetting
             if(moveAmount > 0)
             {
                 targetRotation = Quaternion.LookRotation(moveDirection);
-                playerAnimator.SetBool("IsRun", true);
+                
             }
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, smoothRotation * Time.deltaTime);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, smoothRotation);
             cCon.Move(movement * Time.deltaTime);
+            playerAnimator.SetFloat("moveAmount", moveAmount, 0.2f, Time.deltaTime);        // dampTime : 첫번째 변수(이전 값), 2번쨰 변수(변화시키고 싶은 값)
         }
 
         private void GroundCheck()
