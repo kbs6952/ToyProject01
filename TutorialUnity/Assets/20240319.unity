@@ -136,8 +136,10 @@ GameObject:
   - component: {fileID: 190858027}
   - component: {fileID: 190858026}
   - component: {fileID: 190858030}
-  - component: {fileID: 190858031}
   - component: {fileID: 190858032}
+  - component: {fileID: 190858031}
+  - component: {fileID: 190858033}
+  - component: {fileID: 190858034}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -276,9 +278,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animaotionManager: {fileID: 0}
-  playerMoveSpeed: 10
-  runSpeed: 30
-  jumpForce: 10
+  playerMoveSpeed: 2
+  runSpeed: 4
+  jumpForce: 5
   thirdCam: {fileID: 1659619905}
   smoothRotation: 100
   garavityModifier: 3
@@ -304,6 +306,39 @@ MonoBehaviour:
   limitAngle: 60
   inversLook: 0
   firstCam: {fileID: 761828365}
+--- !u!114 &190858033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190858023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51f3120effaf9b4892341965ad94e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &190858034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190858023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad61bf482e64146408b6856b1b08c2f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterController: {fileID: 0}
+  animator: {fileID: 0}
+  isPerformingAction: 0
+  applyRootMotion: 0
+  canRotate: 1
+  canMove: 1
+  canCombo: 0
+  playerAnimatorManager: {fileID: 0}
+  playerMovementManager: {fileID: 0}
 --- !u!1 &577627465
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,7 +778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!20 &865897249
 Camera:
   m_ObjectHideFlags: 0
@@ -1294,7 +1329,8 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 5c49004c9a00d5a4a8d884a737e59d01, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 781a15e490c144941adf6440cf6b6cdd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1519,7 +1555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1659619904
 Transform:
   m_ObjectHideFlags: 0
