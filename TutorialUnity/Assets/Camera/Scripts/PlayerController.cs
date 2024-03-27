@@ -60,6 +60,7 @@ namespace CameraSetting
         {
            
             HandleActionInput();
+            HandleComboAttack();
             HandleMovement();
         }
 
@@ -80,6 +81,7 @@ namespace CameraSetting
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
 
+          
             // 2. 키보드 Input과 입력 값을 확인하기 위한 변수 선언
 
             Vector3 moveInput = new Vector3(horizontal, 0, vertical).normalized;            // 키보드 입력값을 저장하는 벡터
@@ -156,8 +158,19 @@ namespace CameraSetting
         private void HandleAttackAction()
         {
             player.playerAnimatorManager.PlayerTargetActionAnimation("ATK0", true);
-            
-            
+            player.canCombo = true;                                                     // canCombo True일 때만 콤보 어택을 할 수 있게 제어 변수 선언
+        }
+        private void HandleComboAttack()
+        {
+            //if (!player.canCombo) return; // 예외 사항 처리
+
+            //// 콤보 어택 사용할 입력 키 설정
+
+            //if (Input.GetButtonDown("0"))
+            //{
+            //    player.animator.SetTrigger("doAttack");
+            //}
+
         }
 
     } 

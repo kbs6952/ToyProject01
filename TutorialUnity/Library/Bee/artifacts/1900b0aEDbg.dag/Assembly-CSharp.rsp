@@ -386,6 +386,7 @@
 "Assets/ExplosiveLLC/Warrior FREE/Code/WarriorTiming.cs"
 "Assets/Scripts/Player/PlayerAnimatorManager.cs"
 "Assets/Scripts/Player/PlayerMovementManager.cs"
+"Assets/Scripts/UI/TitleUIManager.cs"
 "Assets/Simple_01/Sample/Scripts/SampleEnemy.cs"
 "Assets/Simple_01/Sample/Scripts/SamplePlayerController.cs"
 "Assets/Simple_01/Sample/Scripts/SpwanManager.cs"
